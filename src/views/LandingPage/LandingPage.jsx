@@ -8,15 +8,15 @@ import ListItem from "@material-ui/core/ListItem";
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
+import Header from "../../components/Header/Header.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
+import GridContainer from "../../components/Grid/GridContainer.jsx";
+import GridItem from "../../components/Grid/GridItem.jsx";
+import Button from "../../components/CustomButtons/Button.jsx";
+import HeaderLinks from "../../components/Header/HeaderLinks.jsx";
+import Parallax from "../../components/Parallax/Parallax.jsx";
 
-import landingPageStyle from "assets/jss/material-kit-pro-react/views/landingPageStyle.jsx";
+import landingPageStyle from "../../assets/jss/material-kit-pro-react/views/landingPageStyle.jsx";
 
 // Sections for this page
 import SectionProduct from "./Sections/SectionProduct.jsx";
@@ -45,7 +45,7 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/firefightinghub.jpg")} filter="dark">
+        <Parallax image={require("../../assets/img/firefightinghub.jpg")} filter="dark">
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={6} md={6}>

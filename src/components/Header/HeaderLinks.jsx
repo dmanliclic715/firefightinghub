@@ -38,10 +38,10 @@ import ShoppingBasket from "@material-ui/icons/ShoppingBasket";
 import LineStyle from "@material-ui/icons/LineStyle";
 
 // core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import CustomDropdown from "../../components/CustomDropdown/CustomDropdown.jsx";
+import Button from "../../components/CustomButtons/Button.jsx";
 
-import headerLinksStyle from "assets/jss/material-kit-pro-react/components/headerLinksStyle.jsx";
+import headerLinksStyle from "../../assets/jss/material-kit-pro-react/components/headerLinksStyle.jsx";
 
 function HeaderLinks({ ...props }) {
   const easeInOutQuad = (t, b, c, d) => {
