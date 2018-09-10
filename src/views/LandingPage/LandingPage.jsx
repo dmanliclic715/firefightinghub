@@ -52,7 +52,7 @@ class LandingPage extends React.Component {
                 <h1 className={classes.title}>
                 Firefighting<span className={classes.proBadgeSpecial}>hub</span>
                 <br />
-                You Save Lives. We Get You There.</h1>
+                You Save Lives. We Get You There. All the way there..;)</h1>
                 <h4>
                   FireFighting Hub is the leading tool in landing you in your next career as a
                   Firefighter and EMS personnel.
