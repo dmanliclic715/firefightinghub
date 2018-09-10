@@ -18,7 +18,7 @@ const landingPageStyle = {
     marginTop: "30px",
     minHeight: "32px",
     color: "#FFFFFF",
-    textDecoration: "none"
+    textDecoration: "none",
   },
   subtitle: {
     fontSize: "1.313rem",
@@ -66,6 +66,17 @@ const landingPageStyle = {
     height: "18px",
     top: "3px",
     position: "relative"
+  },
+  proBadgeSpecial: {
+    fontSize: "42px",
+    fontWeight: "750",
+    padding: "8px 7px",
+    top: "-30px",
+    background: "#ff9100",
+    borderRadius: "3px",
+    color: "#000",
+    lineHeight: "22px",
+    boxShadow: "0 5px 5px -2px rgba(31,31,31,.4)"
   }
 };
 

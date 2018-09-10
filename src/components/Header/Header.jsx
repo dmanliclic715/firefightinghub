@@ -71,7 +71,9 @@ class Header extends React.Component {
       <AppBar className={appBarClasses}>
         <Toolbar className={classes.container}>
           <Button className={classes.title}>
-            <Link to="/">{brand}</Link>
+            <Link to="/">
+            {brand}<span className={classes.ph}>hub</span>
+            </Link>
           </Button>
           <Hidden smDown implementation="css" className={classes.hidden}>
             <div className={classes.collapse}>{links}</div>

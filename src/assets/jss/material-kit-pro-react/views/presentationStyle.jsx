@@ -48,6 +48,20 @@ const presentationStyle = {
     color: "#444",
     lineHeight: "22px",
     boxShadow: "0 5px 5px -2px rgba(31,31,31,.4)"
+  },
+  proBadgeSpecial: {
+    position: "relative",
+    fontSize: "22px",
+    textTransform: "uppercase",
+    fontWeight: "700",
+    right: "-10px",
+    padding: "10px 18px",
+    top: "-30px",
+    background: "#ff9100",
+    borderRadius: "3px",
+    color: "#000",
+    lineHeight: "22px",
+    boxShadow: "0 5px 5px -2px rgba(31,31,31,.4)"
   }
 };
 

@@ -54,6 +54,8 @@ const headerStyle = theme => ({
       ...defaultFont,
       lineHeight: "30px",
       fontSize: "18px",
+      fontWeight: "700",
+      backgroundColor: "black",
       borderRadius: "3px",
       textTransform: "none",
       whiteSpace: "nowrap",
@@ -169,6 +171,17 @@ const headerStyle = theme => ({
     right: "8px",
     top: "9px",
     zIndex: "1"
+  },
+  ph: {
+    fontSize: "20px",
+    fontWeight: "750",
+    padding: "2px 6px",
+    top: "-30px",
+    background: "#ff9100",
+    borderRadius: "3px",
+    color: "#000",
+    lineHeight: "22px",
+    boxShadow: "0 5px 5px -2px rgba(31,31,31,.4)"
   }
 });
 

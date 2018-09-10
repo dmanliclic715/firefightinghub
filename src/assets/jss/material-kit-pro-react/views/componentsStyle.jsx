@@ -43,19 +43,19 @@ const componentsStyle = {
   textCenter: {
     textAlign: "center"
   },
-  proBadge: {
-    position: "absolute",
+  lan: {
+    position: "relative",
     fontSize: "22px",
     textTransform: "uppercase",
-    fontWeight: "bold",
-    right: "-90px",
-    top: "-3px",
+    fontWeight: "700",
+    right: "-10px",
     padding: "10px 18px",
-    backgroundColor: "#fff",
+    top: "-30px",
+    background: "#ff9100",
     borderRadius: "3px",
-    color: "#444",
+    color: "#000",
     lineHeight: "22px",
-    boxShadow: "0px 5px 5px -2px rgba(31,31,31,0.4)"
+    boxShadow: "0 5px 5px -2px rgba(31,31,31,.4)"
   },
   section: {
     ...section,

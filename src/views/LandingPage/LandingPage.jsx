@@ -37,7 +37,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="FireFighting HUB"
+          brand="FireFighting"
           fixed
           changeColorOnScroll={{
             height: 300,
@@ -49,7 +49,10 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={6} md={6}>
-                <h1 className={classes.title}>You Save Lives. We Get You There.</h1>
+                <h1 className={classes.title}>
+                Firefighting<span className={classes.proBadgeSpecial}>hub</span>
+                <br />
+                You Save Lives. We Get You There.</h1>
                 <h4>
                   FireFighting Hub is the leading tool in landing you in your next career as a
                   Firefighter and EMS personnel.
